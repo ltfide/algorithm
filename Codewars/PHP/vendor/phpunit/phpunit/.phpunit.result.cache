@@ -1,0 +1,1 @@
+{"version":1,"defects":{"YouOnlyNeedOneTest::testThatSomethingShouldHappen":4,"IsTheStringUppercaseTest::testFixedTests":3},"times":{"DivisorsTest::testDivisors":0.018,"YouOnlyNeedOneTest::testThatSomethingShouldHappen":0.009,"IsTheStringUppercaseTest::testFixedTests":0.01}}
