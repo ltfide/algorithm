@@ -7,7 +7,6 @@ public class GetTheMiddleCharTest {
 
    public static String getMiddle(String word) {
       int wordLength = word.length() / 2;
-      System.out.println(wordLength);
       StringBuilder chr = new StringBuilder();
 
       if (word.length() % 2 == 0) {
@@ -23,7 +22,7 @@ public class GetTheMiddleCharTest {
    @Test
    void getMiddle() {
       System.out.println(getMiddle("test")); // es
-      System.out.println(getMiddle("middle"));
+      System.out.println(getMiddle("middle")); // dd
       System.out.println(getMiddle("testing")); // t
    }
 
