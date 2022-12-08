@@ -2,9 +2,6 @@ package codewars.enamkyu;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.util.Arrays;
-import java.util.List;
-
 import org.junit.jupiter.api.Test;
 
 public class NumberExpandedForm {
@@ -45,7 +42,7 @@ public class NumberExpandedForm {
       // int beta = (int) Math.floor(70304 / 1);
       // System.out.println(beta);
       System.out.println(expandedForm(900000));
-      // System.out.println(expandedForm(70304));
+      System.out.println(expandedForm(70304));
    }
 
    @Test
