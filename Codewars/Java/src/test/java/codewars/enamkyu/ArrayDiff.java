@@ -64,7 +64,7 @@ public class ArrayDiff {
       list.add(3);
       list.remove(list.indexOf(3));
 
-      System.out.println(list.size());
+      System.out.println(list.size()); // 3
    }
 
 }
