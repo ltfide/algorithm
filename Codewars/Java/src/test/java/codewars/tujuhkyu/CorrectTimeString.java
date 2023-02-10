@@ -21,13 +21,13 @@ public class CorrectTimeString {
         int second = Integer.parseInt(timeX[2]);
 
         if (second / 60 > 0) {
-            minute += 1 * (second / 60);
-            second -= 60 * (second / 60);
+            minute += second / 60;
+            second = second % 60;
         }
 
         if (minute / 60 > 0) {
-            hour += 1 * (minute / 60);
-            minute -= 60 * (minute / 60);
+            hour += minute / 60;
+            minute = minute % 60;
         }
 
         hour = hour % 24;
