@@ -1,5 +1,6 @@
 package codewars.tujuhkyu;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
@@ -25,6 +26,6 @@ public class FindTheStrayNumber {
     @Test
     void test() {
         int[] numbers = {17, 17, 3, 17, 17, 17};
-        System.out.println(stray(numbers));
+        Assertions.assertEquals(3, stray(numbers));
     }
 }
