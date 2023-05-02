@@ -29,7 +29,7 @@ public class TheOfficeIOuted {
         }
     }
 
-    public String solutionII(Person[] meet, String boss) {
+    public String outedII(Person[] meet, String boss) {
         double averageRating = Arrays.stream(meet)
                 .mapToDouble(person -> person.getName().equals(boss) ?
                         person.getRating() * 2 : person.getRating())
