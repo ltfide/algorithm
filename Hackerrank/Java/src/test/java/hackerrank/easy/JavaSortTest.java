@@ -44,7 +44,14 @@ public class JavaSortTest {
             students.add(student);
         }
 
-        Collections.sort(students, new StudentComparator());
+        // Collections.sort(students, new StudentComparator());
+
+        // lebih ringkas dengan lambda
+        Collections.sort(students, (o1, o2) -> {
+            int CGPACompare = o2.CGPA.compareTo(o1.CGPA);
+            int nameComapare = o1.firstName.compareTo(o2.firstName);
+            return (CGPACompare == 0) ? nameComapare : CGPACompare;
+        });
         for (Student students2 : students) {
             System.out.format("%s %s %s \n", students2.id, students2.firstName, students2.CGPA);
         }
