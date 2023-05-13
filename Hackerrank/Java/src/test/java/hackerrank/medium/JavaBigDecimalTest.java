@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * @author Lutfi Dendiansyah
+ * @created 13/05/2023
+ */
 public class JavaBigDecimalTest {
 
     @Test
