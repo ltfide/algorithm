@@ -1,3 +1,4 @@
+-- https://www.hackerrank.com/challenges/occupations/problem
 SELECT
     MAX(CASE WHEN OCCUPATION = 'Doctor' THEN NAME END) AS Doctor,
     MAX(CASE WHEN OCCUPATION = 'Professor' THEN NAME END) AS Professor,
